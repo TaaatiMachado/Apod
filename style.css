@@ -2,6 +2,7 @@ body {
     text-align: center;
     background-color: #363636;
     color: #b7efcd;
+    font-size: 18px;
 }
 
 header {
@@ -12,7 +13,9 @@ header {
     left: 0;
     align-items: center;
     width: 100%;
-    padding: 2px;
+    padding: 25px;
+    font-size: 35px;
+    font-weight: bolder;
 }
 
 h1 {
@@ -20,7 +23,7 @@ h1 {
 }
 
 footer {
-    font-size: 13px;
+    font-size: 18px;
     background-color: #99d8d0;
     color: #363636;
     position: fixed;
@@ -28,6 +31,6 @@ footer {
     left: 0;
     align-items: center;
     width: 100%;
-    padding: 2px;
+    padding: 10px;
         
 }
