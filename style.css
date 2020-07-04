@@ -1,36 +1,112 @@
-body {
-    text-align: center;
-    background-color: #363636;
-    color: #b7efcd;
-    font-size: 18px;
-}
+    body {
+        text-align: center;
+        background-color: #0e0220;
+        color: #e40475;
+        font-size: 18px;
+    }
 
-header {
-    background-color: #ffbcbc;
-    color: #363636;
-    position: fixed;
-    top: 0;
-    left: 0;
-    align-items: center;
-    width: 100%;
-    padding: 25px;
-    font-size: 35px;
-    font-weight: bolder;
-}
-
-h1 {
-    color: #363636;
-}
-
-footer {
-    font-size: 18px;
-    background-color: #99d8d0;
-    color: #363636;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    align-items: center;
-    width: 100%;
-    padding: 10px;
+    header {
+        background-color: #48e0e4;
+        color: #0e0220;
+        position: fixed;
+        top: 0;
+        left: 0;
+        text-align: center;
+        width: 100%;
+        padding: 25px;
+        font-size: 35px;
+        font-weight: bolder;
         
-}
+    }
+
+    h1 {
+        color: #0e0220;
+        text-align: center;
+        border: 5px;
+        border-radius: 7px;
+        border-color: #0e0220;
+        border-style: dotted;
+        width: 30%;
+        padding: 5px;
+        margin-left: 105px;
+        
+    }
+
+    main{
+        display: flex;  
+        justify-content: center;
+        flex-direction: column;
+        margin: 1%;
+        border: 5px;
+        border-radius: 9px;
+        border-color: #48e0e4;
+        border-style: dotted;
+        padding: 8%;    
+    }
+
+    #image {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        
+        
+    }
+
+    .image {
+        display: inline;
+    }
+
+    #video{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 1%;
+
+    }
+
+    .video{
+        display: inline;
+    }
+
+    div {
+        border: 5px;
+        border-radius: 9px;
+        border-color: #48e0e4;
+        border-style: dotted;
+        padding: 12px;
+        
+    }
+
+    #data {
+        margin-bottom: 1%;
+
+    }
+
+    #nomeImg{
+        margin-bottom: 1%;
+        font-size: 35px;
+
+    }
+
+    #textoImg{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 1%;
+    }
+
+
+    footer {
+        font-size: 18px;
+        background-color: #e40475;
+        color: #0e0220;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+            
+    }
+
+    .someclasse {
+        display: none;
+    }
