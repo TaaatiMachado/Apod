@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,11 @@
 </head>
 <body>
     <header>
-    <h1> • Astronomy Pic of the Day • </h1>
+    <h1>Astronomy Pic of the Day</h1>
+        <form class=search id="date" action="" method="GET">
+            <input type=date name="date">
+            <button id="btnShow">Show me!</button>
+        </form>
     </header>
 
     <main>
@@ -18,13 +22,13 @@
         <img id="image" class="image">
         <br>
         <div class="box">
-        <p id="autor">Pic by: </p>
-        <p id="data"> </p>
-        <br>
-        <p id="nomeImg"> </p>
-        <br>
-        <p id="textoImg"> </p>
-        <br>
+            <p id="autor">Pic by: </p>
+            <p id="data"> </p>
+            <br>
+            <p id="nomeImg"> </p>
+            <br>
+            <p id="textoImg"> </p>
+            <br>
         </div>
         
     </main>
@@ -36,4 +40,5 @@
 </footer>
   
 <script src="script.js"></script>
+
 </html>

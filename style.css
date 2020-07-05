@@ -9,13 +9,16 @@
         background-color: #48e0e4;
         color: #0e0220;
         position: fixed;
+        display: flex;  
+        justify-content: space-between;
+        align-items: center;
         top: 0;
         left: 0;
         text-align: center;
         width: 100%;
-        padding: 25px;
         font-size: 35px;
         font-weight: bolder;
+        
         
     }
 
@@ -28,9 +31,29 @@
         border-style: dotted;
         width: 30%;
         padding: 5px;
-        margin-left: 105px;
+        margin-left: 142px;
         
     }
+
+    .search {
+        display: flex;
+        margin-right: 125px;
+    }
+
+    input {
+        display: flex;  
+        width: 250px;
+        height: 30px;
+        align-self: right;
+        justify-content: flex-end;
+        
+    }
+
+    button {
+        height: 36px;
+        
+    }
+
 
     main{
         display: flex;  
